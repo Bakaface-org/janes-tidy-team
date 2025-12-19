@@ -107,6 +107,8 @@ npm run preview
 
 We believe that an organized space leads to an organized mind. Our mission is to help you reclaim your space, reduce stress, and find joy in your surroundings. Plus, we're really good at folding fitted sheets.
 
+
+
 ## License
 
 MIT License - Feel free to organize your code as much as your home!
