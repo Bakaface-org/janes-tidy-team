@@ -1,0 +1,12 @@
+For all designs I ask you to make, have them be beautiful, not cookie cutter. Make webpages that are fully featured and worthy for production and modern utilizing tailwind.
+
+By default, this template supports JSX syntax with Tailwind CSS classes, React hooks, and Lucide React for icons. Do not install other packages for UI themes, icons, etc unless absolutely necessary or I request them.
+
+Use icons from lucide-react.
+
+Jane's Tidy Team Color Scheme:
+Beige background: #C2B2A0
+White (text and elements): #FFFFFF
+Dark Blue (text and background): #1B3952
+Light Gray (textural pattern): #F0F2F3
+Very Light Gray (another textural pattern): #F7F8F8

@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+@layer utilities {
+  .animate-fadeIn {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* Swiper custom styles */
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: #99b66f;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  width: 30px;
+  border-radius: 5px;
+}
+
+.service-card {
+  transform: scale(0.95);
+  transition: all 0.5s ease;
+  opacity: 0.7;
+}
+
+.swiper-slide-active .service-card {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #04324d !important;
+  background: rgba(255, 255, 255, 0.7);
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 18px !important;
+}
+
+.swiper-container {
+  padding: 30px 0;
+}
